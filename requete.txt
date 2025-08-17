@@ -1,0 +1,3 @@
+fields @timestamp, eventName, requestParameters.bucketName, userIdentity.arn
+| filter eventName="PutBucketPublicAccessBlock"
+| sort @timestamp desc
