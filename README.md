@@ -1,0 +1,1 @@
+Le but de ce projet est de créer une alarme qui détecte quand la visibilité d’un bucket S3 change. Pour ça, on va utiliser CloudWatch qui va remonter l’alerte et l’afficher dans un dashboard. Quand une modification est détectée, une fonction Lambda sera déclenchée pour envoyer un mail de notification. En plus, on active les logs CloudTrail pour garder une trace des événements.
